@@ -1,0 +1,12 @@
+{
+    "priorityItems": [
+        {
+            "choice": "Red",
+            "value":"Red"
+        },
+        {
+            "choice": "Green",
+            "value":"Green"
+        }
+    ]
+}
