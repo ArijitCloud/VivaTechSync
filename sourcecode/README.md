@@ -3,7 +3,8 @@
 ## Summary
 
 Two adaptive cards are part of the solution
-One shows number of incidents that are open and in progress
+- One shows number of incidents that are open and in progress.
+- The other is able to save incident details in a SharePoint list using a form like UI.
 
 
 ## Used SharePoint Framework Version
