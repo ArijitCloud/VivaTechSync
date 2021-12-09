@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "show-incidents-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/showIncidents/ShowIncidentsAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/showIncidents/ShowIncidentsAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    },
+    "report-incident-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/reportIncident/ReportIncidentAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/reportIncident/ReportIncidentAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ShowIncidentsAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/showIncidents/loc/{locale}.js",
+    "ReportIncidentAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/reportIncident/loc/{locale}.js"
+  }
+}
